@@ -7,8 +7,11 @@
     "component"
   ],
   "dependencies": {
-    "dialog-component": "*"
+    "dialog-component": "*",
+    "jquery": "*",
+    "inherit": "*"
   },
+  "browser": { "dialog": "dialog-component" },
   "component": {
     "styles": [
       "confirmation.css"
